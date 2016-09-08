@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FahrstundenManager_v4</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+<string name="new_lesson_began">Begonnen</string>
+    
+    <string-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    
+    <string-array name="hours">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+	
+    <string-array name="months2">
+        <item>Januar</item>
+        <item>Februar</item>
+        <item>März</item>
+        <item>April</item>
+        <item>Mai</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>August</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Dezember</item>        
+    </string-array>
+    <string-array name="months">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>        
+    </string-array>
+    
+    <string-array name="years">
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+    </string-array>
+   	<string name="drivertyp">Führerscheintyp</string>
+   	<string-array name="drivertyps">
+   	    <item>Klasse A</item>  
+   	    <item>Klasse A1</item>
+   	    <item>Klasse A2</item>
+        <item>Klasse B</item>        
+            
+    </string-array>
+    <string name="newtitle">Unterrichts Name</string>
+    <string name="prices">Preise</string>
+    <string name="normaldrive">Übungsfahrt(€)</string>
+   	<string name="roaddrive">Sondefahrt Landstraße(€)</string>
+   	<string name="highwaydrive">Sondefahrt Autobahn(€)</string>
+   	<string name="nightdrive">Sondefahrt Nacht(€)</string>
+	
+   	<string name="addlesson">Unterricht hinzufügen</string>
+   	
+   	<string-array name="drives">
+   	    <item >Übungsfahrt</item>
+   	    <item >Sonderfahrt Landstraße</item>
+   	    <item >Sonderfahrt Autobahn</item>
+   	    <item >Sonderfahrt Nacht</item>
+   	    <item >Prüfung</item>
+   	</string-array>
+   	    <string name="editlesson">Unterricht editieren</string>
+</resources>

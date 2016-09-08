@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#66dce1e3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spDayHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/days" />
+
+        <Spinner
+            android:id="@+id/spMonthHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/months" />
+
+        <Spinner
+            android:id="@+id/spYearHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/years" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spDriveTyp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/drives" />
+
+    <Spinner
+        android:id="@+id/spHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/hours" />
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" >
+
+            <ImageView
+                android:id="@+id/ivSmiley"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/smiley" />
+
+            <ImageView
+                android:id="@+id/ivNormaly"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/normaly" />
+
+            <ImageView
+                android:id="@+id/ivSolala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/solala" />
+
+            <ImageView
+                android:id="@+id/ivWorry"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/worry" />
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btAddHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hinzufügen" />
+
+</LinearLayout>
